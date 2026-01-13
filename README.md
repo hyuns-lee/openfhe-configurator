@@ -70,7 +70,7 @@ If you want to change the install location, pass an `OPENFHE_INSTALL_DIR` value 
 % OPENFHE_INSTALL_DIR=~/local scripts/build-openfhe-development.sh
 ```
 
-If you want to change OpenFHE build paramaters, pass those changes as `CMAKE_FLAGS` e.g.,
+If you want to change OpenFHE build parameters, pass those changes as `CMAKE_FLAGS` e.g.,
 
 ```
 % CMAKE_FLAGS="-DWITH_OPENMP=OFF -DCMAKE_BUILD_TYPE=Debug" scripts/build-openfhe-development.sh
