@@ -12,7 +12,7 @@ if [ ! -d openfhe-development ]; then
   separator
   echo "Cloning openfhe-development repository."
   echo
-  git clone https://github.com/openfheorg/openfhe-development.git
+  git clone https://github.com/hyuns-lee/openfhe-development.git
 fi
 
 separator

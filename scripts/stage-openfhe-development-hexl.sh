@@ -16,7 +16,7 @@ if [ ! -d $ROOT/repos/openfhe-hexl ]; then
   separator
   echo "Cloning openfhe-hexl repository."
   echo
-  git clone https://github.com/openfheorg/openfhe-hexl.git || abort "Unable to clone the openfhe-hexl repository."
+  git clone https://github.com/hyuns-lee/openfhe-hexl.git || abort "Unable to clone the openfhe-hexl repository."
 fi
 
 separator
