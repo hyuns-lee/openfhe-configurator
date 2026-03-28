@@ -27,7 +27,7 @@ if [ "x$OPENFHE_INSTALL_DIR" = "x" ]; then
   OPENFHE_INSTALL_DIR=$ROOT/openfhe-staging/install
 fi
 echo "OPENFHE_INSTALL_DIR set to $OPENFHE_INSTALL_DIR"
-cmake $CMAKE_FLAGS -DCMAKE_INSTALL_PREFIX=$OPENFHE_INSTALL_DIR .. || abort "Failure of cmake in openfhe-development."
+cmake $CMAKE_FLAGS -DCMAKE_INSTALL_PREFIX=$OPENFHE_INSTALL_DIR -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .. || abort "Failure of cmake in openfhe-development."
 
 separator
 echo "Making openfhe-development with CC=$CC CXX=$CXX CMAKE_FLAGS=$CMAKE_FLAGS."
